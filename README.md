@@ -42,7 +42,7 @@ python main.py
 ## 📦 Dependencies
 
 - `pyttsx3` (for voice output)
-- 'twilio'  (for own sms host server)
+- `twilio` (for own sms host server)
 
 ---
 
