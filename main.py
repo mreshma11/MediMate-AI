@@ -9,8 +9,8 @@ def main():
 
     coordinator = Coordinator()
 
-    for _ in range(3):  #using for loop for demo video in actual scenario will run in while loop at some specific interval of times
-        bp = sensor_simulation.simulate_bp()
+    while (True):
+        bp = sensor_simulation.sim
         movement = sensor_simulation.simulate_movement()
 
         print(f"\n[Sensor] BP: {bp}, Movement: {movement}")
